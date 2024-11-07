@@ -1,4 +1,5 @@
 - name: Install Package
+  become: true 
   hosts: all
   vars:
     PKG: apache2
@@ -6,3 +7,4 @@
      - package:
           name: {{PKG}}
           state: present
+          become: true
