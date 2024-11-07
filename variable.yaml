@@ -18,4 +18,12 @@
        #task/local
        #
 
+   # priority of global variables
+
+
+   #cmd line var #ansible-playbook -e URL=cli.cloudblitz.in -u ubuntu --private-key=/home/ubuntu/id_ansible.pem -i./hosts ./variable.yaml
+   #local
+   #file
+   #global
+   
    
