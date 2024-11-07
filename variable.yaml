@@ -5,4 +5,15 @@
   tasks:
     - debug:
        msg: Hello World,  {{ URL}}
+       vars:
+         URL: local.cloudblizt.in
+        debug:
+          msg: Hello world, {{ URL}}
+
+
+
+       #global variable
+       #task/local
+       #
+
    
