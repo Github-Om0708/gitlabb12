@@ -5,6 +5,6 @@
     PKG: apache2
   tasks:
      - package:
-          name: "{{PKG}}""
+          name: "{{PKG}}"
           state: present
          
